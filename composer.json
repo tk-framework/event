@@ -1,0 +1,35 @@
+{
+	"name": "tk-framework/event",
+	"description": "Provides event dispatchers and abstract listeners.",
+	"homepage": "https://www.timonkreis.de",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Timon Kreis",
+			"email": "mail@timonkreis.de",
+			"homepage": "https://www.timonkreis.de",
+			"role": "Developer"
+		}
+	],
+	"keywords": [
+		"event",
+		"dispatcher",
+		"listener"
+	],
+	"require": {
+		"php": ">=7.2"
+	},
+	"require-dev": {
+		"tk-framework/test": "^1.1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Event\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TimonKreis\\Framework\\Event\\Tests\\": "tests/src"
+		}
+	}
+}
